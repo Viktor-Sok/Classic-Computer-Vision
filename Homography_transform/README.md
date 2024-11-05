@@ -1,5 +1,5 @@
 # Homography transform to change image perspective.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/DLS_Computer_Vision/blob/main/Segment)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/Homography_transform/Homography_transform.ipynb)
 
 This project demostrates the use of [homography matrix](https://en.wikipedia.org/wiki/Homography_(computer_vision)) to change perspective of one image in order to merge it with another one. 
 To accomplish this the following steps need to be implemented: 
