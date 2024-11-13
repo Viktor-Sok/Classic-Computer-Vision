@@ -1,6 +1,6 @@
 # Camera rotation matrix estimation between two consecutive frames for the case of pure rotation (no camera transaltion between two frames)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/DLS_Computer_Vision/blob/main/Segment)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/blob/main/Camera_pure_rotation_estimation/Pure_Cam_Rotation_Recovery.ipynb)
 
 This repository demonstrates one of the approaches for estimating rotation between two frames, which can be useful for the variety of tasks such as: visual odometry, structure from motion, etc.
 
@@ -17,5 +17,5 @@ This repository demonstrates one of the approaches for estimating rotation betwe
  This optimization problem can be solved using [Polar Decomposition](https://en.wikipedia.org/wiki/Rotation_matrix), which in itself can be found using [SVD](https://en.wikipedia.org/wiki/Polar_decomposition)
  
 **Results**\
-Comparison of the known true rotation matrix and estimated one has been done in two ways: by Frobenius norm, and by angle in degrees between two matrices. The results are quite good for such a simple approach.
+Comparison of the known true rotation matrix and estimated one has been done in two ways: by Frobenius norm, and by angle in degrees between two matrices. The results are quite good for such a simple approach.\
 <img src="assets/res.jpg" alt="drawing" width="210"/>
