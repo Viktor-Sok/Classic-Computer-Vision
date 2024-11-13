@@ -9,8 +9,7 @@ This repository demonstrates one of the approaches for estimating rotation betwe
 2. To estimate the homography matrix we found key points and their descriptors using SIFT. To match the key points the ratio test has been applied.
 <img src="assets/key_points.jpg" alt="drawing" width="410"/>
 3. From the known homography the rotation matrix can be estimated as follows:
-*R_rec = inv(K) H K*. However, in most cases R_rec is not even going to be a rotation matrix (e.g. det(R_rec) might be no equal 1).
-
+R_rec = inv(K) H K. However, in most cases R_rec is not even going to be a rotation matrix (e.g. det(R_rec) might not be equal 1).
 4. Finding the closest rotation matrix R_closest to the R_rec by formulating the optimization problem of the type:
 <img src="assets/equation.jpg" alt="drawing" width="410"/> \
  This optimization problem can be solved using [Polar Decomposition](https://en.wikipedia.org/wiki/Rotation_matrix), which in itself can be found using [SVD](https://en.wikipedia.org/wiki/Polar_decomposition)
