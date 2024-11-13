@@ -12,7 +12,7 @@ This repository demonstrates one of the approaches for estimating rotation betwe
 R_rec = inv(K) H K. However, in most cases R_rec is not even going to be a rotation matrix (e.g. det(R_rec) might not be equal 1).
 4. Finding the closest rotation matrix R_closest to the R_rec by formulating the optimization problem of the type:
 <img src="assets/equation.jpg" alt="drawing" width="410"/> \
- This optimization problem can be solved using [Polar Decomposition](https://en.wikipedia.org/wiki/Rotation_matrix), which in itself can be found using [SVD](https://en.wikipedia.org/wiki/Polar_decomposition)
+This optimization problem can be solved using [Polar Decomposition](https://en.wikipedia.org/wiki/Rotation_matrix), which in itself can be found using [SVD](https://en.wikipedia.org/wiki/Polar_decomposition)
  
 **Results**\
 Comparison of the known true rotation matrix and estimated one has been done in two ways: by Frobenius norm, and by angle in degrees between two matrices. The results are quite good for such a simple approach.\
