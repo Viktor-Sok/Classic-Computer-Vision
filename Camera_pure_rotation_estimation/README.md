@@ -1,7 +1,6 @@
 # Camera rotation matrix estimation between two consecutive frames for the case of pure rotation (no camera transaltion between two frames)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/blob/main/Camera_pure_rotation_estimation/Pure_Cam_Rotation_Recovery.ipynb)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/Camera_pure_rotation_estimation/Pure_Cam_Rotation_Recovery.ipynb)
 This repository demonstrates one of the approaches for estimating rotation between two frames, which can be useful for the variety of tasks such as: visual odometry, structure from motion, etc.
 
 1. Using Blender script we generated synthetic data: two frames obtained by rotating camera around vertical axis of the Camera Frame. The true rotation matrix and camera matrix are known as well.
