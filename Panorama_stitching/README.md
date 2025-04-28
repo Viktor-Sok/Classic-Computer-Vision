@@ -1,6 +1,6 @@
 # Panorama stitching (frames are taken via pure camera rotation)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/Camera_pure_rotation_estimation/Pure_Cam_Rotation_Recovery.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/Panorama_stitching/Panorama.ipynb) 
 
 The implementation of panorama stitching algorithm in this repository allows to choose different center image for a panorama and also to adjust positions of the seams for more pleasant visual result. Moreover, the problem of varying frame brightness is dealt with by [Laplacian blend](https://docs.opencv.org/4.x/dc/dff/tutorial_py_pyramids.html). The frame distortions due to planar picture plane are addressed with projection on the surface of a cylinder. The _Data_ folder containes the frames used in the algorithm description below. 
 
