@@ -2,7 +2,7 @@
 
 Images as 2D signals can be analysed not only in pixel coordinates, but also in the fourier domain of wave vectors. The project shows how to apply, interpret and visualize 2D fourier transform. Some applications as image decimation and low-pass filtering are considered.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/RANSAC/RANSAC_LeastSquares.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/Image_fourier_analysis/Image_2D_fourier.ipynb) 
 
 1. The original image and its spectrum, i.e. absolute value of fourier coefficients are shown below. For visualization purposes the log(1 + abs(fourier_coef_i)) actually is plotted with binary thresholding.
 
