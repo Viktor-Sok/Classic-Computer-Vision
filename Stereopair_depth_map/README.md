@@ -1,6 +1,6 @@
 # Stereopair depth map estimation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/RANSAC/RANSAC_LeastSquares.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/Stereopair_depth_map/Depth_Map.ipynb) 
 
 Estimation of depth is an important topic in computer vision. It can be used for various applications such as robotics, 3D reconstruction. structure from motion, visual odometry. Depth can be estimated for each image pixel, in which case it's called dense map, or for a set of corresponding points, which is called a sparse map. In this project the dense map is of interest.
 The scene and stereopair are modelled in Blender, such that all the intrinsic and extrinsic stereopair parameters are known, so there is no need in stereo calibration, which usually can be performed with `cv2.stereoCalibrate()` function. The textures are applied to the solids on the scene to ensure a greater amount of corresponding points. The project follows the following conventions: 
