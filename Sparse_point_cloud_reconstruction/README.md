@@ -1,7 +1,7 @@
 # Sparse point cloud reconstruction
 The project shows an approach to reconstruct a sparse point cloud of a scene from different camera views. The similar problem can arise in such applications as structure from motion, SLAM, visual odometry, etc.  To obtain the images, the camera moves around a circle among 16 uniformly distributed positions on the Blender scene. All the intrinsic and extrinsic parameters for each position are known. 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/RANSAC/RANSAC_LeastSquares.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Classic-Computer-Vision/blob/main/Sparse_point_cloud_reconstruction/Reconstruction.ipynb) 
 
 1. Input data consists of 16 images from the different camera positions:
 
